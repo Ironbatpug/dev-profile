@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7509CB332235993B0062C0DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7509CB322235993B0062C0DF /* AppDelegate.swift */; };
 		7509CB352235993B0062C0DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7509CB342235993B0062C0DF /* ViewController.swift */; };
-		7509CB382235993B0062C0DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7509CB362235993B0062C0DF /* Main.storyboard */; };
+		7509CB382235993B0062C0DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7509CB362235993B0062C0DF /* Main.storyboard */; settings = {ASSET_TAGS = (button, ); }; };
 		7509CB3A2235993D0062C0DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7509CB392235993D0062C0DF /* Assets.xcassets */; };
 		7509CB3D2235993D0062C0DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7509CB3B2235993D0062C0DF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -90,6 +90,9 @@
 		7509CB272235993B0062C0DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					button,
+				);
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Molnár Csaba";
